@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function(){
 		$('.slider').slick({
         	autoplay:true,
       		autoplaySpeed:2000,
@@ -32,6 +32,12 @@ $(document).ready(function(){
 		        slidesToShow: 2,
 		        infinite: true
 		     }
-		 	}]
+		 	},{
+				breakpoint: 321,
+				settings: {
+				  slidesToShow: 1,
+				  infinite: true
+			   }
+			}]
      	});
 });

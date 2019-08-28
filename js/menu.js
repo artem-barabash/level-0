@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function(){
 	
 	var current = 'menu-state-open';
 
@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     	$(this).addClass(current);
 
-       $('.menu-list').slideToggle(300, function(){
+        $('#nav ul').slideToggle(300, function(){
             if($(this).css('display') === "none"){
                 $(this).removeAttr('style');
                 $('.menuToggle').removeClass(current);
