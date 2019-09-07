@@ -7,12 +7,12 @@ jQuery(document).ready(function(){
      	});
 
      	$('.partners-slider').slick({
-     		autoplay:true,
+     		//autoplay:true,
       		autoplaySpeed:2000,
       		dots: false,
       		arrows: false,
       		slidesToShow: 5,
-			slidesToScroll: 5,
+			slidesToScroll: 1,
 			responsive: [{
 		      breakpoint: 1025,
 		      settings: {
